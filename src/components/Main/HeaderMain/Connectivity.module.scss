@@ -1,0 +1,26 @@
+.Connectivity {
+    background-color: #ecfeb7;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 15px;
+        transition: .5s ease-in-out;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -ms-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+    }
+    button:hover {
+        background: #000;
+        color: #fff;
+        transform: scale(.97);
+        -webkit-transform: scale(.97);
+        -moz-transform: scale(.97);
+        -ms-transform: scale(.97);
+        -o-transform: scale(.97);
+    }
+}
