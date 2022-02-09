@@ -7,3 +7,44 @@ marquee {
         font-weight: 400;
     }
 }
+
+.header {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 30px;
+    .menu {
+        position: relative;
+        height: 20px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .menu::before,
+    .menu::after {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 5px;
+        background-color: black;
+    }
+    .menu::after {
+        bottom: 0;
+    }
+    .menu::after,
+    .menu::before {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .logo {
+        img {
+            height: 25px;
+        }
+    }
+}
